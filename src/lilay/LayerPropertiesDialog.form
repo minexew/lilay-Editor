@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" resourceKey="Form.title"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="tabPane" alignment="0" pref="344" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="layerName" pref="269" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="buttonSave" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="226" max="32767" attributes="0"/>
+                      <Component id="buttonClose" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="layerName" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tabPane" pref="146" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="buttonSave" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="buttonClose" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+        <Property name="text" type="java.lang.String" resourceKey="layerNameText"/>
+        <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="layerName">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+        <Property name="name" type="java.lang.String" value="layerName" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonSave">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+        <Property name="text" type="java.lang.String" resourceKey="saveButtonText"/>
+        <Property name="name" type="java.lang.String" value="buttonSave" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonSaveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonClose">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+        <Property name="text" type="java.lang.String" resourceKey="cancelButtonText"/>
+        <Property name="name" type="java.lang.String" value="buttonClose" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonCloseActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="tabPane">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+        <Property name="name" type="java.lang.String" value="tabPane" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="imagePanel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+            <Property name="name" type="java.lang.String" value="imagePanel" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Image Layer">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="imagePanel.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="imageSource" pref="249" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="xSpinner" min="-2" pref="60" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ySpinner" min="-2" pref="60" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="opacitySpinner" alignment="0" min="-2" pref="45" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="imageSource" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="xSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ySpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="opacitySpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="35" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="text" type="java.lang.String" resourceKey="imageSourceText"/>
+                <Property name="name" type="java.lang.String" value="jLabel2" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="imageSource">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="name" type="java.lang.String" value="imageSource" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="text" type="java.lang.String" resourceKey="jLabel3.text"/>
+                <Property name="name" type="java.lang.String" value="jLabel3" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="xSpinner">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="name" type="java.lang.String" value="xSpinner" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="ySpinner">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="name" type="java.lang.String" value="ySpinner" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="text" type="java.lang.String" resourceKey="jLabel6.text"/>
+                <Property name="name" type="java.lang.String" value="jLabel6" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="opacitySpinner">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                  <SpinnerModel initial="1.0" maximum="1.0" minimum="0.0" numberType="java.lang.Float" stepSize="0.1" type="number"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="opacitySpinner" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="tilesetPanel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="tilesetPanel.font"/>
+            <Property name="name" type="java.lang.String" value="tilesetPanel" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Tileset Layer">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="tilesetPanel.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tilesetSource" alignment="0" pref="249" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="tileWSpinner" min="-2" pref="60" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tileHSpinner" min="-2" pref="60" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tilesetSource" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tileWSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tileHSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="61" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="text" type="java.lang.String" resourceKey="jLabel4.text"/>
+                <Property name="name" type="java.lang.String" value="jLabel4" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tilesetSource">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="name" type="java.lang.String" value="tilesetSource" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="text" type="java.lang.String" resourceKey="jLabel5.text"/>
+                <Property name="name" type="java.lang.String" value="jLabel5" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="tileWSpinner">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="name" type="java.lang.String" value="tileWSpinner" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="tileHSpinner">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="name" type="java.lang.String" value="tileHSpinner" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="collisionMapPanel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="collisionMapPanel.font"/>
+            <Property name="name" type="java.lang.String" value="collisionMapPanel" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Collision Map">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="collisionMapPanel.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="tileWSpinnerC" min="-2" pref="60" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="tileHSpinnerC" min="-2" pref="60" max="-2" attributes="0"/>
+                      <EmptySpace pref="145" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tileWSpinnerC" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tileHSpinnerC" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="87" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="text" type="java.lang.String" resourceKey="jLabel8.text"/>
+                <Property name="name" type="java.lang.String" value="jLabel8" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="tileWSpinnerC">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="name" type="java.lang.String" value="tileWSpinnerC" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="tileHSpinnerC">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="uiFont"/>
+                <Property name="name" type="java.lang.String" value="tileHSpinnerC" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
